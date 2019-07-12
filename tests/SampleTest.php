@@ -6,11 +6,11 @@ use PHPUnit\Framework\TestCase;
 class SampleTest extends TestCase
 {
 	/**
-	 * @var \Framework\Sample\Sample
+	 * @var Sample
 	 */
 	protected $sample;
 
-	public function setup()
+	public function setup() : void
 	{
 		$this->sample = new Sample();
 	}
