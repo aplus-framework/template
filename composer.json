@@ -1,6 +1,6 @@
 {
-	"name": "framework/sample-package",
-	"type": "library",
+	"name": "natanfelles/sample-package",
+	"type": "project",
 	"description": "The Framework Sample package",
 	"keywords": [
 		"sample-package"
@@ -18,8 +18,8 @@
 	},
 	"require-dev": {
 		"ext-xdebug": "*",
-		"framework/coding-standard": "^1.0",
 		"localheinz/composer-normalize": "^1.3",
+		"natanfelles/coding-standard": "^1.0",
 		"phpmd/phpmd": "^2.7",
 		"phpstan/phpstan": "^0.11",
 		"phpunit/phpunit": "^8.3"
