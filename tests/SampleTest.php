@@ -5,10 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 class SampleTest extends TestCase
 {
-	/**
-	 * @var Sample
-	 */
-	protected $sample;
+	protected Sample $sample;
 
 	public function setup() : void
 	{
