@@ -2,7 +2,7 @@
 
 class Sample
 {
-	public function test()
+	public function test() : string
 	{
 		return __METHOD__;
 	}
