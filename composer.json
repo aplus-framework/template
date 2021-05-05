@@ -14,15 +14,15 @@
 		}
 	],
 	"require": {
-		"php": ">=7.4"
+		"php": ">=8.0"
 	},
 	"require-dev": {
 		"ext-xdebug": "*",
-		"ergebnis/composer-normalize": "^2.0",
-		"natanfelles/coding-standard": "^1.0",
-		"phpmd/phpmd": "^2.9",
+		"ergebnis/composer-normalize": "^2.13",
+		"natanfelles/coding-standard": "^1.2",
+		"phpmd/phpmd": "^2.10",
 		"phpstan/phpstan": "^0.12",
-		"phpunit/phpunit": "^9.3"
+		"phpunit/phpunit": "^9.5"
 	},
 	"autoload": {
 		"psr-4": {
@@ -34,12 +34,6 @@
 			"Tests\\Sample\\": "tests/"
 		}
 	},
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "https://the-framework.gitlab.io/satis/"
-		}
-	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"scripts": {
