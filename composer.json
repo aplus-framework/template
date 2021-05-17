@@ -1,7 +1,7 @@
 {
 	"name": "natanfelles/sample-package",
 	"type": "project",
-	"description": "The Framework Sample package",
+	"description": "The Framework Sample Package",
 	"keywords": [
 		"sample-package"
 	],
