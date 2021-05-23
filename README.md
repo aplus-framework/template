@@ -1,4 +1,4 @@
-# Framework Sample Package
+# The Framework Sample Package Project
 
 - [Homepage](https://the-framework.gitlab.io/projects/sample-package.html)
 - [API Documentation](https://the-framework.gitlab.io/projects/sample-package/docs/)

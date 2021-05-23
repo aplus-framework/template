@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <phpdocumentor>
-    <title>Framework Sample Package</title>
+    <title>The Framework Sample Package Project</title>
     <parser>
         <target>build/docs-cache</target>
         <markers>
