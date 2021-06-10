@@ -12,7 +12,7 @@ class SampleTest extends TestCase
 		$this->sample = new Sample();
 	}
 
-	public function testSample()
+	public function testSample() : void
 	{
 		$this->assertEquals(
 			'Framework\Sample\Sample::test',
