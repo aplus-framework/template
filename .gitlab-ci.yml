@@ -8,6 +8,7 @@ test:php:
       - build/
       - vendor/
   before_script:
+    - mkdir -p build
     - composer install
   script:
     - composer normalize --dry-run --indent-size=1 --indent-style=tab
