@@ -5,6 +5,7 @@ test:php:
   stage: test
   cache:
     paths:
+      - build/
       - vendor/
   before_script:
     - composer install
