@@ -3,18 +3,18 @@
 use Framework\Sample\Sample;
 use PHPUnit\Framework\TestCase;
 
-class SampleTest extends TestCase
+final class SampleTest extends TestCase
 {
 	protected Sample $sample;
 
-	public function setup() : void
+	protected function setUp() : void
 	{
 		$this->sample = new Sample();
 	}
 
 	public function testSample() : void
 	{
-		$this->assertEquals(
+		self::assertSame(
 			'Framework\Sample\Sample::test',
 			$this->sample->test()
 		);

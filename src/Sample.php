@@ -1,4 +1,6 @@
-<?php namespace Framework\Sample;
+<?php declare(strict_types=1);
+
+namespace Framework\Sample;
 
 class Sample
 {
