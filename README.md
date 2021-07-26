@@ -1,4 +1,4 @@
-# Aplus Framework Sample Package
+# Aplus Framework Sample Package Project
 
 - [Homepage](https://aplus-framework.com/docs/sample-package)
 - [API Documentation](https://aplus-framework.gitlab.io/projects/sample-package/docs/)
