@@ -1,11 +1,13 @@
 {
-	"name": "natanfelles/sample-package",
+	"name": "aplus/sample-package",
 	"type": "project",
-	"description": "The Framework Sample Package",
+	"description": "Aplus Framework Sample Package",
 	"keywords": [
-		"sample-package"
+		"sample-package",
+		"sample",
+		"template"
 	],
-	"homepage": "https://the-framework.gitlab.io/sample-package.html",
+	"homepage": "https://aplus-framework.com/docs/sample-package",
 	"license": "proprietary",
 	"authors": [
 		{
@@ -20,7 +22,7 @@
 	"require-dev": {
 		"ext-xdebug": "*",
 		"ergebnis/composer-normalize": "^2.15",
-		"natanfelles/coding-standard": "^1.6",
+		"natanfelles/coding-standard": "^1.9",
 		"phpmd/phpmd": "^2.10",
 		"phpstan/phpstan": "^0.12",
 		"phpunit/phpunit": "^9.5"
@@ -44,9 +46,9 @@
 	"prefer-stable": true,
 	"support": {
 		"email": "natanfelles@gmail.com",
-		"issues": "https://gitlab.com/the-framework/sample-package/issues",
-		"wiki": "https://gitlab.com/the-framework/sample-package/wikis/home",
-		"source": "https://gitlab.com/the-framework/sample-package",
-		"docs": "https://the-framework.gitlab.io/sample-package/docs/"
+		"issues": "https://gitlab.com/aplus-framework/projects/sample-package/issues",
+		"wiki": "https://gitlab.com/aplus-framework/projects/sample-package/wikis/home",
+		"source": "https://gitlab.com/aplus-framework/projects/sample-package",
+		"docs": "https://aplus-framework.gitlab.io/projects/sample-package/docs/"
 	}
 }
