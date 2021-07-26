@@ -1,54 +1,54 @@
 {
-	"name": "aplus/sample-package",
-	"type": "project",
-	"description": "Aplus Framework Sample Package Project",
-	"keywords": [
-		"sample-package",
-		"sample",
-		"template"
-	],
-	"homepage": "https://aplus-framework.com/docs/sample-package",
-	"license": "proprietary",
-	"authors": [
-		{
-			"name": "Natan Felles",
-			"email": "natanfelles@gmail.com",
-			"homepage": "https://natanfelles.github.io"
-		}
-	],
-	"require": {
-		"php": ">=8.0"
-	},
-	"require-dev": {
-		"ext-xdebug": "*",
+    "name": "aplus/sample-package",
+    "type": "project",
+    "description": "Aplus Framework Sample Package Project",
+    "keywords": [
+        "sample-package",
+        "sample",
+        "template"
+    ],
+    "homepage": "https://aplus-framework.com/docs/sample-package",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Natan Felles",
+            "email": "natanfelles@gmail.com",
+            "homepage": "https://natanfelles.github.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "ext-xdebug": "*",
         "aplus/coding-standard": "^1.9",
-		"ergebnis/composer-normalize": "^2.15",
-		"phpmd/phpmd": "^2.10",
-		"phpstan/phpstan": "^0.12",
-		"phpunit/phpunit": "^9.5"
-	},
-	"config": {
-		"optimize-autoloader": true,
-		"preferred-install": "dist",
-		"sort-packages": true
-	},
-	"autoload": {
-		"psr-4": {
-			"Framework\\Sample\\": "src/"
-		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"Tests\\Sample\\": "tests/"
-		}
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
-	"support": {
-		"email": "natanfelles@gmail.com",
-		"issues": "https://gitlab.com/aplus-framework/projects/sample-package/issues",
-		"wiki": "https://gitlab.com/aplus-framework/projects/sample-package/wikis/home",
-		"source": "https://gitlab.com/aplus-framework/projects/sample-package",
-		"docs": "https://aplus-framework.gitlab.io/projects/sample-package/docs/"
-	}
+        "ergebnis/composer-normalize": "^2.15",
+        "phpmd/phpmd": "^2.10",
+        "phpstan/phpstan": "^0.12",
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\Sample\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Sample\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "email": "natanfelles@gmail.com",
+        "issues": "https://gitlab.com/aplus-framework/projects/sample-package/issues",
+        "wiki": "https://gitlab.com/aplus-framework/projects/sample-package/wikis/home",
+        "source": "https://gitlab.com/aplus-framework/projects/sample-package",
+        "docs": "https://aplus-framework.gitlab.io/projects/sample-package/docs/"
+    }
 }

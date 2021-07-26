@@ -5,18 +5,18 @@ use PHPUnit\Framework\TestCase;
 
 final class SampleTest extends TestCase
 {
-	protected Sample $sample;
+    protected Sample $sample;
 
-	protected function setUp() : void
-	{
-		$this->sample = new Sample();
-	}
+    protected function setUp() : void
+    {
+        $this->sample = new Sample();
+    }
 
-	public function testSample() : void
-	{
-		self::assertSame(
-			'Framework\Sample\Sample::test',
-			$this->sample->test()
-		);
-	}
+    public function testSample() : void
+    {
+        self::assertSame(
+            'Framework\Sample\Sample::test',
+            $this->sample->test()
+        );
+    }
 }
