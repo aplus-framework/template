@@ -8,7 +8,7 @@
         "template"
     ],
     "homepage": "https://aplus-framework.com/docs/sample-package",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Natan Felles",
