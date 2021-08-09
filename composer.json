@@ -7,7 +7,7 @@
         "sample",
         "template"
     ],
-    "homepage": "https://aplus-framework.com/docs/sample-package",
+    "homepage": "https://docs.aplus-framework.com/guides/projects/sample-package/",
     "license": "MIT",
     "authors": [
         {
@@ -49,6 +49,6 @@
         "issues": "https://gitlab.com/aplus-framework/projects/sample-package/issues",
         "wiki": "https://gitlab.com/aplus-framework/projects/sample-package/wikis/home",
         "source": "https://gitlab.com/aplus-framework/projects/sample-package",
-        "docs": "https://aplus-framework.gitlab.io/projects/sample-package/docs/"
+        "docs": "https://docs.aplus-framework.com/guides/projects/sample-package/"
     }
 }
