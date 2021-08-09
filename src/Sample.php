@@ -9,6 +9,11 @@
  */
 namespace Framework\Sample;
 
+/**
+ * Class Sample.
+ *
+ * @package sample-package
+ */
 class Sample
 {
     public function test() : string
