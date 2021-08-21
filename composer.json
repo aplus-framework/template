@@ -1,13 +1,12 @@
 {
-    "name": "aplus/sample-package",
+    "name": "aplus/sample",
     "type": "project",
-    "description": "Aplus Framework Sample Package Project",
+    "description": "Aplus Framework Sample Project",
     "keywords": [
-        "sample-package",
         "sample",
         "template"
     ],
-    "homepage": "https://docs.aplus-framework.com/guides/projects/sample-package/",
+    "homepage": "https://docs.aplus-framework.com/guides/projects/sample/",
     "license": "MIT",
     "authors": [
         {
@@ -45,10 +44,10 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "support": {
-        "email": "natanfelles@gmail.com",
-        "issues": "https://gitlab.com/aplus-framework/projects/sample-package/issues",
-        "wiki": "https://gitlab.com/aplus-framework/projects/sample-package/wikis/home",
-        "source": "https://gitlab.com/aplus-framework/projects/sample-package",
-        "docs": "https://docs.aplus-framework.com/guides/projects/sample-package/"
+        "email": "support@aplus-framework.com",
+        "issues": "https://gitlab.com/aplus-framework/projects/sample/issues",
+        "wiki": "https://gitlab.com/aplus-framework/projects/sample/wikis/home",
+        "source": "https://gitlab.com/aplus-framework/projects/sample",
+        "docs": "https://docs.aplus-framework.com/guides/projects/sample/"
     }
 }

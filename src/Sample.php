@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 /*
- * This file is part of Aplus Framework Sample Package Project.
+ * This file is part of Aplus Framework Sample Project.
  *
  * (c) Natan Felles <natanfelles@gmail.com>
  *
@@ -12,7 +12,7 @@ namespace Framework\Sample;
 /**
  * Class Sample.
  *
- * @package sample-package
+ * @package sample
  */
 class Sample
 {
