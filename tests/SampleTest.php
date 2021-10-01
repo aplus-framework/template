@@ -1,6 +1,6 @@
 <?php
 /*
- * This file is part of Aplus Framework Sample Project.
+ * This file is part of Aplus Framework Template Project.
  *
  * (c) Natan Felles <natanfelles@gmail.com>
  *

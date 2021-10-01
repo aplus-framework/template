@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 /*
- * This file is part of Aplus Framework Sample Project.
+ * This file is part of Aplus Framework Template Project.
  *
  * (c) Natan Felles <natanfelles@gmail.com>
  *
@@ -11,7 +11,7 @@ use Framework\CodingStandard\Config;
 use Framework\CodingStandard\Finder;
 
 return (new Config())->setDefaultHeaderComment(
-    'Aplus Framework Sample Project',
+    'Aplus Framework Template Project',
     'Natan Felles <natanfelles@gmail.com>'
 )->setFinder(
     Finder::create()->in(__DIR__)

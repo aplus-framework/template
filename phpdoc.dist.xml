@@ -5,7 +5,7 @@
     xmlns="https://www.phpdoc.org"
     xsi:noNamespaceSchemaLocation="https://docs.phpdoc.org/latest/phpdoc.xsd"
 >
-    <title>Aplus Framework Sample Project</title>
+    <title>Aplus Framework Template Project</title>
     <paths>
         <output>build/docs</output>
         <cache>build/docs-cache</cache>
@@ -16,7 +16,7 @@
             <source dsn=".">
                 <path>src</path>
             </source>
-            <default-package-name>sample</default-package-name>
+            <default-package-name>template</default-package-name>
             <include-source>true</include-source>
         </api>
         <guide>
