@@ -1,13 +1,12 @@
 {
     "name": "aplus/template",
+    "description": "Aplus Framework Template Project",
+    "license": "MIT",
     "type": "project",
-    "description": "Aplus Framework Sample Project",
     "keywords": [
         "sample",
         "template"
     ],
-    "homepage": "https://docs.aplus-framework.com/guides/projects/template/",
-    "license": "MIT",
     "authors": [
         {
             "name": "Natan Felles",
@@ -15,22 +14,33 @@
             "homepage": "https://natanfelles.github.io"
         }
     ],
+    "homepage": "https://aplus-framework.com/packages/template",
+    "support": {
+        "email": "support@aplus-framework.com",
+        "issues": "https://gitlab.com/aplus-framework/projects/template/issues",
+        "forum": "https://aplus-framework.com/forum",
+        "source": "https://gitlab.com/aplus-framework/projects/template",
+        "docs": "https://docs.aplus-framework.com/guides/projects/template/"
+    },
+    "funding": [
+        {
+            "type": "Aplus Sponsor",
+            "url": "https://aplus-framework.com/sponsor"
+        }
+    ],
     "require": {
         "php": ">=8.0"
     },
     "require-dev": {
         "ext-xdebug": "*",
-        "aplus/coding-standard": "^1.10",
-        "ergebnis/composer-normalize": "^2.15",
-        "phpmd/phpmd": "^2.10",
+        "aplus/coding-standard": "^1.12",
+        "ergebnis/composer-normalize": "^2.18",
+        "phpmd/phpmd": "^2.11",
         "phpstan/phpstan": "^0.12",
         "phpunit/phpunit": "^9.5"
     },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Framework\\Sample\\": "src/"
@@ -41,13 +51,9 @@
             "Tests\\Sample\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "support": {
-        "email": "support@aplus-framework.com",
-        "issues": "https://gitlab.com/aplus-framework/projects/template/issues",
-        "wiki": "https://gitlab.com/aplus-framework/projects/template/wikis/home",
-        "source": "https://gitlab.com/aplus-framework/projects/template",
-        "docs": "https://docs.aplus-framework.com/guides/projects/template/"
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
     }
 }
