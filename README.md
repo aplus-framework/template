@@ -1,5 +1,8 @@
+<a href="https://gitlab.com/aplus-framework/projects/template"><img src="https://gitlab.com/aplus-framework/projects/template/-/raw/master/guide/image.png" alt="Aplus Framework Template Project" align="right" width="100"></a>
+
 # Aplus Framework Template Project
 
+- [Homepage](https://aplus-framework.com/packages/template)
 - [User Guide](https://docs.aplus-framework.com/guides/projects/template/index.html)
 - [API Documentation](https://docs.aplus-framework.com/packages/template.html)
 
