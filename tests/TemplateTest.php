@@ -7,25 +7,25 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Tests\Sample;
+namespace Tests\Template;
 
-use Framework\Sample\Sample;
+use Framework\Template\Template;
 use PHPUnit\Framework\TestCase;
 
-final class SampleTest extends TestCase
+final class TemplateTest extends TestCase
 {
-    protected Sample $sample;
+    protected Template $template;
 
     protected function setUp() : void
     {
-        $this->sample = new Sample();
+        $this->template = new Template();
     }
 
-    public function testSample() : void
+    public function testTemplate() : void
     {
         self::assertSame(
-            'Framework\Sample\Sample::test',
-            $this->sample->test()
+            'Framework\Template\Template::test',
+            $this->template->test()
         );
     }
 }
