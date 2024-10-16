@@ -58,14 +58,14 @@ jobs:
           cp build/coverage/clover.xml build/logs/clover.xml
           composer global require php-coveralls/php-coveralls
           php-coveralls --coverage_clover=build/logs/clover.xml -v
-  tests-last:
-    runs-on: ubuntu-20.04
+  tests-latest:
+    runs-on: ubuntu-22.04
     timeout-minutes: 10
 
     strategy:
       fail-fast: true
 
-    name: PHP 8.2 - Last
+    name: PHP Latest
 
     steps:
       - name: Checkout
@@ -74,7 +74,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: 8.2
+          php-version: latest
           tools: composer
           coverage: xdebug
 
