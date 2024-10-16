@@ -33,10 +33,10 @@
     },
     "require-dev": {
         "ext-xdebug": "*",
-        "aplus/coding-standard": "^1.14",
-        "ergebnis/composer-normalize": "^2.30",
-        "phpmd/phpmd": "^2.13",
-        "phpstan/phpstan": "^1.10",
+        "aplus/coding-standard": "^2.8",
+        "ergebnis/composer-normalize": "^2.44",
+        "phpmd/phpmd": "^2.15",
+        "phpstan/phpstan": "^1.12",
         "phpunit/phpunit": "^9.6"
     },
     "minimum-stability": "dev",
