@@ -1,11 +1,11 @@
-.idea/
-.vscode/
-build/
-raw-tests/
-vendor/
+.idea
 .php-cs-fixer.cache
 .phpunit.result.cache
+.vscode
+build
 composer.lock
 composer.phar
 phpstan.neon
 phpunit.xml
+raw-tests
+vendor
